@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndeService", "Inde\IndeService.csproj", "{EE94A858-2316-4AD0-B070-B2EB397ECFEE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndeService", "IndeService\IndeService.csproj", "{EE94A858-2316-4AD0-B070-B2EB397ECFEE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sms", "Sms\Sms.csproj", "{534509A8-8C19-4933-B40A-E205ADD9E762}"
 EndProject
