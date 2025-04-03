@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inde", "Inde\Inde.csproj", "{EE94A858-2316-4AD0-B070-B2EB397ECFEE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndeService", "Inde\IndeService.csproj", "{EE94A858-2316-4AD0-B070-B2EB397ECFEE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sms", "Sms\Sms.csproj", "{534509A8-8C19-4933-B40A-E205ADD9E762}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MC", "MC\MC.csproj", "{29C9E783-B8E2-4AE8-B80B-04D68A9DAA1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inde", "IndeDomain\Inde.csproj", "{4E0F81A6-8486-43C1-975B-FF598C90DE85}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{29C9E783-B8E2-4AE8-B80B-04D68A9DAA1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29C9E783-B8E2-4AE8-B80B-04D68A9DAA1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29C9E783-B8E2-4AE8-B80B-04D68A9DAA1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E0F81A6-8486-43C1-975B-FF598C90DE85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E0F81A6-8486-43C1-975B-FF598C90DE85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E0F81A6-8486-43C1-975B-FF598C90DE85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E0F81A6-8486-43C1-975B-FF598C90DE85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

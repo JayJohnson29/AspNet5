@@ -1,8 +1,10 @@
 ﻿
+using MC;
+
 namespace Sms.Service
 {
     public interface ILetterService
     {
-        Task<bool> RunAsync(CancellationToken cancellationToken, AppConfig config);
+        Task<Itineraries> RunAsync(CancellationToken cancellationToken, AppConfig config);
     }
 }

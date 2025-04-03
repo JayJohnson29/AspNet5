@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 using Sms.Adapter;
-using Sms.MC;
+using MC;
 using Sms.Repository;
 using System.Xml.Serialization;
 using System.Xml;
@@ -53,7 +53,7 @@ public class LetterService : ILetterService
 
     }
 
-    public async Task<bool> RunAsync(CancellationToken cancellationToken, AppConfig config)
+    public async Task<Itineraries> RunAsync(CancellationToken cancellationToken, AppConfig config)
     {
         //var config = new AppConfig { ClientId = 224, SourceSystemCode = 7, CurrencyCode = "USD", ResortName = "pebble" };
 
@@ -75,7 +75,7 @@ public class LetterService : ILetterService
         if (requests.Count == 0)
         {
            // _logger.LogWarning ("No letter requests were loaded.  Nothing to send to MC Batch API {letterRequstId}", r.First().LetterRequestId);
-            return true;
+            return new Itineraries { ExtractionDate = DateTime.Now, Itinerary = [], NumberOfRecords = 0 }; ;
         }
 
         //_log.Debug($"{requests.Count} letter requests were loaded");
@@ -110,17 +110,14 @@ public class LetterService : ILetterService
                 NumberOfRecords = SortedList.Count
             };
 
-            var xmlString = SerializeObject<Itineraries>(itineraries);
-           File.WriteAllText($"c:\\temp\\itin1a.xml", xmlString);
+            //var xmlString = SerializeObject<Itineraries>(itineraries); 
+            //File.WriteAllText($"c:\\temp\\itin1a.xml", xmlString);
 
-            //var jsonString = JsonSerializer.Serialize<Reservations>(reservations);
-            //File.WriteAllText($"c:\\temp\\res4a.json", xmlString);
-
-            // Util.SendReservations(_currentInstance.FTP, xmlString, "SMS", _currentInstance.SID);
+            return itineraries;
         }
 
 
-        return true;
+        return new Itineraries{ ExtractionDate = DateTime.Now, Itinerary = [], NumberOfRecords = 0};
     }
 
     public static string SerializeObject<T>(T dataToSerialize)

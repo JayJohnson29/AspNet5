@@ -1,5 +1,5 @@
 ﻿
-namespace Inde.Repository
+namespace IndeService.Repository
 {
     public interface IMcLoginRepository
     {

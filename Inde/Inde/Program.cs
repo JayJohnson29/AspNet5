@@ -1,7 +1,7 @@
 using Serilog;
-using Inde;
-using Inde.Repository;
-using Inde.Service;
+using IndeService;
+using IndeService.Repository;
+using IndeService.Service;
 using System.Net.Http.Headers;
 using Microsoft.EntityFrameworkCore;
 using Sms;

@@ -1,4 +1,4 @@
-﻿namespace Inde;
+﻿namespace IndeService;
 
 public class Schedule
 {

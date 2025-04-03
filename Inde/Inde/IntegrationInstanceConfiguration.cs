@@ -2,7 +2,7 @@
 
 using MC;
 
-namespace Inde;
+namespace IndeService;
 public class IntegrationInstanceConfiguration
 {
     public IntegrationInstanceConfig InstanceConfig { get; set; }

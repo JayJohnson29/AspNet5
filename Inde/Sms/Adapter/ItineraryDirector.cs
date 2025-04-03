@@ -1,7 +1,7 @@
 ﻿using Azure.Core;
 using Microsoft.Extensions.Logging;
 using Sms.Entity;
-using Sms.MC;
+using MC;
 using Sms.Repository;
 
 namespace Sms.Adapter;

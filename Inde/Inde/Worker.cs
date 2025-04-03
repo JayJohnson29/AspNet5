@@ -1,7 +1,7 @@
-using Inde.Repository;
-using Inde.Service;
+using IndeService.Repository;
+using IndeService.Service;
 
-namespace Inde
+namespace IndeService
 {
     public class Worker : BackgroundService
     {
@@ -18,12 +18,8 @@ namespace Inde
         {
             while (!stoppingToken.IsCancellationRequested)
             {
-                if (_logger.IsEnabled(LogLevel.Information))
-                {
-                    _logger.LogInformation("Wow Man");
-                }
                 var a = await _integrationService.RunAsync(stoppingToken);
-                await Task.Delay(10000, stoppingToken);
+                await Task.Delay(30000, stoppingToken);
             }
         }
     }

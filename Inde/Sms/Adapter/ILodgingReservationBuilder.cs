@@ -1,5 +1,5 @@
 ﻿using Sms.Entity;
-using Sms.MC;
+using MC;
 
 namespace Sms.Adapter
 {

@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Sms.Entity;
-using Sms.MC;
+using MC;
 
 namespace Sms.Adapter
 {

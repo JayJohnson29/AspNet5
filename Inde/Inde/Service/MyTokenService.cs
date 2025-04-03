@@ -1,8 +1,8 @@
 ﻿
-using Inde.Repository;
+using IndeService.Repository;
 using Microsoft.AspNetCore.Http.Features;
 
-namespace Inde.Service;
+namespace IndeService.Service;
 
 public class MyTokenService : IMyTokenService
 {

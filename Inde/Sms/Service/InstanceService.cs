@@ -5,17 +5,12 @@ namespace Sms.Service;
 public class InstanceService(ILogger<InstanceService> logger, ILetterService letterService, IItineraryArrivalService itineraryArrivalService,IDatabaseRestoreService databaseRestoreService)
     : IInstanceService
 {
-    private bool isRunning = false;
 
-    public async Task ExecuteAsync(CancellationToken stoppingToken, IntegrationInstanceConfig integrationInstanceConfig)
+    public async Task<bool> ExecuteAsync(CancellationToken stoppingToken, IntegrationInstanceConfig integrationInstanceConfig)
     {
 
         try
         {
-            if (isRunning)
-                return;
-
-            isRunning = true;
 
             var appConfig = new AppConfig
             {
@@ -24,7 +19,7 @@ public class InstanceService(ILogger<InstanceService> logger, ILetterService let
                 CurrencyCode = "USD",
                 PropertyName = "pebble",
                 ResortName = "pebble",
-                SmsIntegrationId = -1,//result.Item2,
+                SmsIntegrationId = -1, //result.Item2,
                 HostPlusPath = $"C:\\temp\\smsdata\\Source\\HostPlus",
                 ConnectionString = $"data source=192.168.1.2;database=pb_springermiller;user id=sa;password=tiger123$;Connection Timeout=120;Encrypt=False;",
             };
@@ -33,7 +28,7 @@ public class InstanceService(ILogger<InstanceService> logger, ILetterService let
             if (!result.Item1)
             {
                 logger.LogError("Rebuild database failed");
-                return;
+                return true;
             }
 
             appConfig.SmsIntegrationId = result.Item2;
@@ -43,16 +38,15 @@ public class InstanceService(ILogger<InstanceService> logger, ILetterService let
                 var x = await letterService.RunAsync(stoppingToken, appConfig);
             }
 
-            isRunning = false;
+            return true;
         }
         catch (Exception e)
         {
             Console.WriteLine(e);
-            isRunning = false;
+            return false;
         }
         finally
         {
-            isRunning = false;
         }
 
     }

@@ -1,4 +1,4 @@
-﻿namespace Inde;
+﻿namespace IndeService;
 public interface IMcMemoryCache<TItem>
 {
     Task<TItem> Get(object key);

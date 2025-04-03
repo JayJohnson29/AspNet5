@@ -1,6 +1,6 @@
 ﻿using System.Text.Json;
 
-namespace Inde.Repository;
+namespace IndeService.Repository;
 
 public class IntegrationInstanceRepository : IIntegrationInstanceRepository
 {

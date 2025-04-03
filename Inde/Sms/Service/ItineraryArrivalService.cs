@@ -1,10 +1,9 @@
 ﻿using Microsoft.Extensions.Logging;
 using Sms.Adapter;
-using Sms.MC;
+using MC;
 using Sms.Repository;
 using System.Xml.Serialization;
 using System.Xml;
-using System.Text.Json;
 using System.Text;
 
 namespace Sms.Service;

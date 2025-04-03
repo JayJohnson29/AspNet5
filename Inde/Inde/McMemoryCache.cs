@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Inde;
+namespace IndeService;
 public class McMemoryCache<TItem> : IMcMemoryCache<TItem>
 {
     private readonly MemoryCache _cache = new MemoryCache(new MemoryCacheOptions());

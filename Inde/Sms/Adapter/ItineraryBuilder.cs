@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 using Serilog;
 using Sms.Entity;
-using Sms.MC;
+using MC;
 using System.Runtime.CompilerServices;
 
 namespace Sms.Adapter

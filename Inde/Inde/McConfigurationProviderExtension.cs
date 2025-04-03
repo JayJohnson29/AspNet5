@@ -1,4 +1,4 @@
-﻿using Inde;
+﻿using IndeService;
 
 public static class McConfigurationProviderExtension
 {

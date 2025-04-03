@@ -1,5 +1,5 @@
 ﻿
-namespace Inde.Service
+namespace IndeService.Service
 {
     public interface IMyTokenService
     {

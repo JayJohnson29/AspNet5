@@ -1,4 +1,4 @@
-﻿using Sms.MC;
+﻿using MC;
 
 namespace Sms.Adapter
 {

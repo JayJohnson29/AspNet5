@@ -1,6 +1,6 @@
-﻿using Inde.Repository;
+﻿using IndeService.Repository;
 
-namespace Inde.Service;
+namespace IndeService.Service;
 
 public class IntegrationService(ILogger<IntegrationService> logger, ConfigurationSettings configurationSettings,
      IIntegrationInstanceRepository integrationInstanceRepository,

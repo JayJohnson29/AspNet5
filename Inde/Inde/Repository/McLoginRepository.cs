@@ -1,7 +1,7 @@
 ﻿using System.Net.Http.Headers;
 using System.Text.Json;
 
-namespace Inde.Repository;
+namespace IndeService.Repository;
 public class McLoginRepository : IMcLoginRepository
 {
     private readonly ILogger<McLoginRepository> _logger;
