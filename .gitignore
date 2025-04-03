@@ -26,6 +26,7 @@ Thumbs.db
 obj/
 packages/
 .nuget/
+.vs/
 [Rr]elease*/
 _ReSharper*/
 [Tt]est[Rr]esult*
