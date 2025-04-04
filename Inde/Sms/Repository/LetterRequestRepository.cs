@@ -19,8 +19,6 @@ public class LetterRequestRepository : ILetterRequestRepository
 
     public async Task<List<LetterRequest>> CreateAsync(int smsIntegrationId, DateTime beginDate, DateTime endDate)
     {
-        _logger.LogDebug("Begin ItineraryHistoryInsert calling proc [HA].[LetterRequestInsert] {id}", smsIntegrationId);
-
         try
         {
             var parameters = new List<SqlParameter>();

@@ -3,32 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{534509A8-8C19-4933-B40A-E205ADD9E762}|Sms\\Sms.csproj|c:\\users\\jjohnson\\source\\projects\\aspnet5\\inde\\sms\\repository\\lodgingreservationtransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{534509A8-8C19-4933-B40A-E205ADD9E762}|Sms\\Sms.csproj|solutionrelative:sms\\repository\\lodgingreservationtransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{534509A8-8C19-4933-B40A-E205ADD9E762}|Sms\\Sms.csproj|c:\\users\\jjohnson\\source\\projects\\aspnet5\\inde\\sms\\service\\instanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{534509A8-8C19-4933-B40A-E205ADD9E762}|Sms\\Sms.csproj|solutionrelative:sms\\service\\instanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE94A858-2316-4AD0-B070-B2EB397ECFEE}|IndeService\\IndeService.csproj|c:\\users\\jjohnson\\source\\projects\\aspnet5\\inde\\indeservice\\service\\integrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE94A858-2316-4AD0-B070-B2EB397ECFEE}|IndeService\\IndeService.csproj|solutionrelative:indeservice\\service\\integrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE94A858-2316-4AD0-B070-B2EB397ECFEE}|IndeService\\IndeService.csproj|c:\\users\\jjohnson\\source\\projects\\aspnet5\\inde\\indeservice\\service\\batchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE94A858-2316-4AD0-B070-B2EB397ECFEE}|IndeService\\IndeService.csproj|solutionrelative:indeservice\\service\\batchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{534509A8-8C19-4933-B40A-E205ADD9E762}|Sms\\Sms.csproj|c:\\users\\jjohnson\\source\\projects\\aspnet5\\inde\\sms\\service\\databaserestoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{534509A8-8C19-4933-B40A-E205ADD9E762}|Sms\\Sms.csproj|solutionrelative:sms\\service\\databaserestoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE94A858-2316-4AD0-B070-B2EB397ECFEE}|IndeService\\IndeService.csproj|c:\\users\\jjohnson\\source\\projects\\aspnet5\\inde\\indeservice\\repository\\batchfilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE94A858-2316-4AD0-B070-B2EB397ECFEE}|IndeService\\IndeService.csproj|solutionrelative:indeservice\\repository\\batchfilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{534509A8-8C19-4933-B40A-E205ADD9E762}|Sms\\Sms.csproj|c:\\users\\jjohnson\\source\\projects\\aspnet5\\inde\\sms\\service\\instanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{534509A8-8C19-4933-B40A-E205ADD9E762}|Sms\\Sms.csproj|solutionrelative:sms\\service\\instanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{534509A8-8C19-4933-B40A-E205ADD9E762}|Sms\\Sms.csproj|c:\\users\\jjohnson\\source\\projects\\aspnet5\\inde\\sms\\repository\\letterhistoryitineraryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{534509A8-8C19-4933-B40A-E205ADD9E762}|Sms\\Sms.csproj|solutionrelative:sms\\repository\\letterhistoryitineraryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{534509A8-8C19-4933-B40A-E205ADD9E762}|Sms\\Sms.csproj|c:\\users\\jjohnson\\source\\projects\\aspnet5\\inde\\sms\\service\\letterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{534509A8-8C19-4933-B40A-E205ADD9E762}|Sms\\Sms.csproj|solutionrelative:sms\\service\\letterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{534509A8-8C19-4933-B40A-E205ADD9E762}|Sms\\Sms.csproj|c:\\users\\jjohnson\\source\\projects\\aspnet5\\inde\\sms\\service\\databaserestoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{534509A8-8C19-4933-B40A-E205ADD9E762}|Sms\\Sms.csproj|solutionrelative:sms\\service\\databaserestoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{534509A8-8C19-4933-B40A-E205ADD9E762}|Sms\\Sms.csproj|c:\\users\\jjohnson\\source\\projects\\aspnet5\\inde\\sms\\repository\\letterrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{534509A8-8C19-4933-B40A-E205ADD9E762}|Sms\\Sms.csproj|solutionrelative:sms\\repository\\letterrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{534509A8-8C19-4933-B40A-E205ADD9E762}|Sms\\Sms.csproj|c:\\users\\jjohnson\\source\\projects\\aspnet5\\inde\\sms\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{534509A8-8C19-4933-B40A-E205ADD9E762}|Sms\\Sms.csproj|solutionrelative:sms\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE94A858-2316-4AD0-B070-B2EB397ECFEE}|IndeService\\IndeService.csproj|c:\\users\\jjohnson\\source\\projects\\aspnet5\\inde\\indeservice\\repository\\integrationinstancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE94A858-2316-4AD0-B070-B2EB397ECFEE}|IndeService\\IndeService.csproj|solutionrelative:indeservice\\repository\\integrationinstancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE94A858-2316-4AD0-B070-B2EB397ECFEE}|IndeService\\IndeService.csproj|c:\\users\\jjohnson\\source\\projects\\aspnet5\\inde\\indeservice\\service\\batchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE94A858-2316-4AD0-B070-B2EB397ECFEE}|IndeService\\IndeService.csproj|solutionrelative:indeservice\\service\\batchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE94A858-2316-4AD0-B070-B2EB397ECFEE}|IndeService\\IndeService.csproj|c:\\users\\jjohnson\\source\\projects\\aspnet5\\inde\\indeservice\\service\\usertokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE94A858-2316-4AD0-B070-B2EB397ECFEE}|IndeService\\IndeService.csproj|solutionrelative:indeservice\\service\\usertokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE94A858-2316-4AD0-B070-B2EB397ECFEE}|IndeService\\IndeService.csproj|c:\\users\\jjohnson\\source\\projects\\aspnet5\\inde\\indeservice\\service\\iusertokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE94A858-2316-4AD0-B070-B2EB397ECFEE}|IndeService\\IndeService.csproj|solutionrelative:indeservice\\service\\iusertokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE94A858-2316-4AD0-B070-B2EB397ECFEE}|IndeService\\IndeService.csproj|c:\\users\\jjohnson\\source\\projects\\aspnet5\\inde\\indeservice\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE94A858-2316-4AD0-B070-B2EB397ECFEE}|IndeService\\IndeService.csproj|solutionrelative:indeservice\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE94A858-2316-4AD0-B070-B2EB397ECFEE}|IndeService\\IndeService.csproj|c:\\users\\jjohnson\\source\\projects\\aspnet5\\inde\\indeservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE94A858-2316-4AD0-B070-B2EB397ECFEE}|IndeService\\IndeService.csproj|solutionrelative:indeservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE94A858-2316-4AD0-B070-B2EB397ECFEE}|IndeService\\IndeService.csproj|c:\\users\\jjohnson\\source\\projects\\aspnet5\\inde\\indeservice\\usertokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE94A858-2316-4AD0-B070-B2EB397ECFEE}|IndeService\\IndeService.csproj|solutionrelative:indeservice\\usertokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE94A858-2316-4AD0-B070-B2EB397ECFEE}|IndeService\\IndeService.csproj|c:\\users\\jjohnson\\source\\projects\\aspnet5\\inde\\indeservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EE94A858-2316-4AD0-B070-B2EB397ECFEE}|IndeService\\IndeService.csproj|solutionrelative:indeservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE94A858-2316-4AD0-B070-B2EB397ECFEE}|IndeService\\IndeService.csproj|c:\\users\\jjohnson\\source\\projects\\aspnet5\\inde\\indeservice\\mcuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE94A858-2316-4AD0-B070-B2EB397ECFEE}|IndeService\\IndeService.csproj|solutionrelative:indeservice\\mcuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{534509A8-8C19-4933-B40A-E205ADD9E762}|Sms\\Sms.csproj|c:\\users\\jjohnson\\source\\projects\\aspnet5\\inde\\sms\\repository\\lodgingreservationtransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{534509A8-8C19-4933-B40A-E205ADD9E762}|Sms\\Sms.csproj|solutionrelative:sms\\repository\\lodgingreservationtransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE94A858-2316-4AD0-B070-B2EB397ECFEE}|IndeService\\IndeService.csproj|c:\\users\\jjohnson\\source\\projects\\aspnet5\\inde\\indeservice\\repository\\batchfilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE94A858-2316-4AD0-B070-B2EB397ECFEE}|IndeService\\IndeService.csproj|solutionrelative:indeservice\\repository\\batchfilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{534509A8-8C19-4933-B40A-E205ADD9E762}|Sms\\Sms.csproj|c:\\users\\jjohnson\\source\\projects\\aspnet5\\inde\\sms\\entity\\lodgingreservationtransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,32 +87,8 @@
       "RelativeMoniker": "D:0:0:{534509A8-8C19-4933-B40A-E205ADD9E762}|Sms\\Sms.csproj|solutionrelative:sms\\adapter\\lodgingreservationdirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{534509A8-8C19-4933-B40A-E205ADD9E762}|Sms\\Sms.csproj|c:\\users\\jjohnson\\source\\projects\\aspnet5\\inde\\sms\\repository\\letterrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{534509A8-8C19-4933-B40A-E205ADD9E762}|Sms\\Sms.csproj|solutionrelative:sms\\repository\\letterrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{534509A8-8C19-4933-B40A-E205ADD9E762}|Sms\\Sms.csproj|c:\\users\\jjohnson\\source\\projects\\aspnet5\\inde\\sms\\repository\\smsintegrationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{534509A8-8C19-4933-B40A-E205ADD9E762}|Sms\\Sms.csproj|solutionrelative:sms\\repository\\smsintegrationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{534509A8-8C19-4933-B40A-E205ADD9E762}|Sms\\Sms.csproj|c:\\users\\jjohnson\\source\\projects\\aspnet5\\inde\\sms\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{534509A8-8C19-4933-B40A-E205ADD9E762}|Sms\\Sms.csproj|solutionrelative:sms\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE94A858-2316-4AD0-B070-B2EB397ECFEE}|IndeService\\IndeService.csproj|c:\\users\\jjohnson\\source\\projects\\aspnet5\\inde\\indeservice\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE94A858-2316-4AD0-B070-B2EB397ECFEE}|IndeService\\IndeService.csproj|solutionrelative:indeservice\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE94A858-2316-4AD0-B070-B2EB397ECFEE}|IndeService\\IndeService.csproj|c:\\users\\jjohnson\\source\\projects\\aspnet5\\inde\\indeservice\\repository\\integrationinstancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE94A858-2316-4AD0-B070-B2EB397ECFEE}|IndeService\\IndeService.csproj|solutionrelative:indeservice\\repository\\integrationinstancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE94A858-2316-4AD0-B070-B2EB397ECFEE}|IndeService\\IndeService.csproj|c:\\users\\jjohnson\\source\\projects\\aspnet5\\inde\\indeservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE94A858-2316-4AD0-B070-B2EB397ECFEE}|IndeService\\IndeService.csproj|solutionrelative:indeservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{534509A8-8C19-4933-B40A-E205ADD9E762}|Sms\\Sms.csproj|c:\\users\\jjohnson\\source\\projects\\aspnet5\\inde\\sms\\repository\\letterhistoryitineraryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{534509A8-8C19-4933-B40A-E205ADD9E762}|Sms\\Sms.csproj|solutionrelative:sms\\repository\\letterhistoryitineraryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{534509A8-8C19-4933-B40A-E205ADD9E762}|Sms\\Sms.csproj|c:\\users\\jjohnson\\source\\projects\\aspnet5\\inde\\sms\\service\\iinstanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -294,63 +314,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DatabaseRestoreService.cs",
-              "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Service\\DatabaseRestoreService.cs",
-              "RelativeDocumentMoniker": "Sms\\Service\\DatabaseRestoreService.cs",
-              "ToolTip": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Service\\DatabaseRestoreService.cs",
-              "RelativeToolTip": "Sms\\Service\\DatabaseRestoreService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T20:23:10.261Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LetterService.cs",
-              "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Service\\LetterService.cs",
-              "RelativeDocumentMoniker": "Sms\\Service\\LetterService.cs",
-              "ToolTip": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Service\\LetterService.cs",
-              "RelativeToolTip": "Sms\\Service\\LetterService.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAmwHMAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T19:32:21.611Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LodgingReservationBuilder.cs",
-              "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Adapter\\LodgingReservationBuilder.cs",
-              "RelativeDocumentMoniker": "Sms\\Adapter\\LodgingReservationBuilder.cs",
-              "ToolTip": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Adapter\\LodgingReservationBuilder.cs",
-              "RelativeToolTip": "Sms\\Adapter\\LodgingReservationBuilder.cs",
-              "ViewState": "AgIAAEsCAAAAAAAAAAAkwEwCAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T12:40:47.832Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "InstanceService.cs",
-              "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Service\\InstanceService.cs",
-              "RelativeDocumentMoniker": "Sms\\Service\\InstanceService.cs",
-              "ToolTip": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Service\\InstanceService.cs",
-              "RelativeToolTip": "Sms\\Service\\InstanceService.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAmwE4AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T18:59:06.965Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -360,14 +328,105 @@
               "RelativeDocumentMoniker": "IndeService\\Service\\IntegrationService.cs",
               "ToolTip": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\IndeService\\Service\\IntegrationService.cs",
               "RelativeToolTip": "IndeService\\Service\\IntegrationService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAmwCYAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAWwD4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T16:15:11.597Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IntegrationInstanceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\IndeService\\Repository\\IntegrationInstanceRepository.cs",
+              "RelativeDocumentMoniker": "IndeService\\Repository\\IntegrationInstanceRepository.cs",
+              "ToolTip": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\IndeService\\Repository\\IntegrationInstanceRepository.cs",
+              "RelativeToolTip": "IndeService\\Repository\\IntegrationInstanceRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T01:16:09.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InstanceService.cs",
+              "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Service\\InstanceService.cs",
+              "RelativeDocumentMoniker": "Sms\\Service\\InstanceService.cs",
+              "ToolTip": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Service\\InstanceService.cs",
+              "RelativeToolTip": "Sms\\Service\\InstanceService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAjwC0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T18:59:06.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "DatabaseRestoreService.cs",
+              "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Service\\DatabaseRestoreService.cs",
+              "RelativeDocumentMoniker": "Sms\\Service\\DatabaseRestoreService.cs",
+              "ToolTip": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Service\\DatabaseRestoreService.cs",
+              "RelativeToolTip": "Sms\\Service\\DatabaseRestoreService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T20:23:10.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "Sms\\ServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "Sms\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAADwvzUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T22:18:38.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LetterService.cs",
+              "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Service\\LetterService.cs",
+              "RelativeDocumentMoniker": "Sms\\Service\\LetterService.cs",
+              "ToolTip": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Service\\LetterService.cs",
+              "RelativeToolTip": "Sms\\Service\\LetterService.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAIA6wEgAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T19:32:21.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LetterRequestRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Repository\\LetterRequestRepository.cs",
+              "RelativeDocumentMoniker": "Sms\\Repository\\LetterRequestRepository.cs",
+              "ToolTip": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Repository\\LetterRequestRepository.cs",
+              "RelativeToolTip": "Sms\\Repository\\LetterRequestRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCoAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T22:51:09.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LetterHistoryItineraryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Repository\\LetterHistoryItineraryRepository.cs",
+              "RelativeDocumentMoniker": "Sms\\Repository\\LetterHistoryItineraryRepository.cs",
+              "ToolTip": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Repository\\LetterHistoryItineraryRepository.cs",
+              "RelativeToolTip": "Sms\\Repository\\LetterHistoryItineraryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T14:42:14.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "BatchService.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\IndeService\\Service\\BatchService.cs",
               "RelativeDocumentMoniker": "IndeService\\Service\\BatchService.cs",
@@ -380,7 +439,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
+              "Title": "UserTokenService.cs",
+              "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\IndeService\\Service\\UserTokenService.cs",
+              "RelativeDocumentMoniker": "IndeService\\Service\\UserTokenService.cs",
+              "ToolTip": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\IndeService\\Service\\UserTokenService.cs",
+              "RelativeToolTip": "IndeService\\Service\\UserTokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T11:40:09.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUserTokenService.cs",
+              "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\IndeService\\Service\\IUserTokenService.cs",
+              "RelativeDocumentMoniker": "IndeService\\Service\\IUserTokenService.cs",
+              "ToolTip": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\IndeService\\Service\\IUserTokenService.cs",
+              "RelativeToolTip": "IndeService\\Service\\IUserTokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T12:36:52.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\IndeService\\Worker.cs",
+              "RelativeDocumentMoniker": "IndeService\\Worker.cs",
+              "ToolTip": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\IndeService\\Worker.cs",
+              "RelativeToolTip": "IndeService\\Worker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T16:19:30.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\IndeService\\Program.cs",
+              "RelativeDocumentMoniker": "IndeService\\Program.cs",
+              "ToolTip": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\IndeService\\Program.cs",
+              "RelativeToolTip": "IndeService\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T17:09:31.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserTokenHandler.cs",
+              "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\IndeService\\UserTokenHandler.cs",
+              "RelativeDocumentMoniker": "IndeService\\UserTokenHandler.cs",
+              "ToolTip": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\IndeService\\UserTokenHandler.cs",
+              "RelativeToolTip": "IndeService\\UserTokenHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T11:39:46.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\IndeService\\appsettings.json",
+              "RelativeDocumentMoniker": "IndeService\\appsettings.json",
+              "ToolTip": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\IndeService\\appsettings.json",
+              "RelativeToolTip": "IndeService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-04T12:27:26.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "BatchFileRepository.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\IndeService\\Repository\\BatchFileRepository.cs",
               "RelativeDocumentMoniker": "IndeService\\Repository\\BatchFileRepository.cs",
@@ -393,20 +530,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 15,
+              "Title": "McUser.cs",
+              "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\IndeService\\McUser.cs",
+              "RelativeDocumentMoniker": "IndeService\\McUser.cs",
+              "ToolTip": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\IndeService\\McUser.cs",
+              "RelativeToolTip": "IndeService\\McUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T11:41:33.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LodgingReservationBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Adapter\\LodgingReservationBuilder.cs",
+              "RelativeDocumentMoniker": "Sms\\Adapter\\LodgingReservationBuilder.cs",
+              "ToolTip": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Adapter\\LodgingReservationBuilder.cs",
+              "RelativeToolTip": "Sms\\Adapter\\LodgingReservationBuilder.cs",
+              "ViewState": "AgIAAEsCAAAAAAAAAAAkwEwCAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T12:40:47.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "LodgingReservationTransactionRepository.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Repository\\LodgingReservationTransactionRepository.cs",
               "RelativeDocumentMoniker": "Sms\\Repository\\LodgingReservationTransactionRepository.cs",
               "ToolTip": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Repository\\LodgingReservationTransactionRepository.cs",
               "RelativeToolTip": "Sms\\Repository\\LodgingReservationTransactionRepository.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA4wB8AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T04:02:29.744Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 18,
               "Title": "LodgingReservationTransaction.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Entity\\LodgingReservationTransaction.cs",
               "RelativeDocumentMoniker": "Sms\\Entity\\LodgingReservationTransaction.cs",
@@ -414,12 +576,11 @@
               "RelativeToolTip": "Sms\\Entity\\LodgingReservationTransaction.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T04:05:15.506Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T04:05:15.506Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 21,
               "Title": "SmsIntegrationRepository.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Repository\\SmsIntegrationRepository.cs",
               "RelativeDocumentMoniker": "Sms\\Repository\\SmsIntegrationRepository.cs",
@@ -432,57 +593,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ServiceCollectionExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\ServiceCollectionExtensions.cs",
-              "RelativeDocumentMoniker": "Sms\\ServiceCollectionExtensions.cs",
-              "ToolTip": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\ServiceCollectionExtensions.cs",
-              "RelativeToolTip": "Sms\\ServiceCollectionExtensions.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAQwDoAAAC7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T22:18:38.669Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Worker.cs",
-              "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\IndeService\\Worker.cs",
-              "RelativeDocumentMoniker": "IndeService\\Worker.cs",
-              "ToolTip": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\IndeService\\Worker.cs",
-              "RelativeToolTip": "IndeService\\Worker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T16:19:30.326Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\IndeService\\Program.cs",
-              "RelativeDocumentMoniker": "IndeService\\Program.cs",
-              "ToolTip": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\IndeService\\Program.cs",
-              "RelativeToolTip": "IndeService\\Program.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAF8AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T17:09:31.52Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LetterRequestRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Repository\\LetterRequestRepository.cs",
-              "RelativeDocumentMoniker": "Sms\\Repository\\LetterRequestRepository.cs",
-              "ToolTip": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Repository\\LetterRequestRepository.cs",
-              "RelativeToolTip": "Sms\\Repository\\LetterRequestRepository.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCwAAABjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T22:51:09.233Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 20,
               "Title": "LodgingReservationDirector.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Adapter\\LodgingReservationDirector.cs",
               "RelativeDocumentMoniker": "Sms\\Adapter\\LodgingReservationDirector.cs",
@@ -490,12 +601,11 @@
               "RelativeToolTip": "Sms\\Adapter\\LodgingReservationDirector.cs",
               "ViewState": "AgIAADcAAAAAAAAAAAAswEwAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T12:40:53.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T12:40:53.663Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "IInstanceService.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Service\\IInstanceService.cs",
               "RelativeDocumentMoniker": "Sms\\Service\\IInstanceService.cs",
@@ -507,19 +617,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IntegrationInstanceRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\IndeService\\Repository\\IntegrationInstanceRepository.cs",
-              "RelativeDocumentMoniker": "IndeService\\Repository\\IntegrationInstanceRepository.cs",
-              "ToolTip": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\IndeService\\Repository\\IntegrationInstanceRepository.cs",
-              "RelativeToolTip": "IndeService\\Repository\\IntegrationInstanceRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T01:16:09.88Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "ZipService.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\IndeDomain\\ZipService.cs",
               "RelativeDocumentMoniker": "IndeDomain\\ZipService.cs",
@@ -531,19 +629,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "LetterHistoryItineraryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Repository\\LetterHistoryItineraryRepository.cs",
-              "RelativeDocumentMoniker": "Sms\\Repository\\LetterHistoryItineraryRepository.cs",
-              "ToolTip": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Repository\\LetterHistoryItineraryRepository.cs",
-              "RelativeToolTip": "Sms\\Repository\\LetterHistoryItineraryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T14:42:14.416Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "IItineraryArrivalService.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Service\\IItineraryArrivalService.cs",
               "RelativeDocumentMoniker": "Sms\\Service\\IItineraryArrivalService.cs",
@@ -555,7 +641,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "IBatchFileRepository.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\IndeService\\Repository\\IBatchFileRepository.cs",
               "RelativeDocumentMoniker": "IndeService\\Repository\\IBatchFileRepository.cs",
@@ -567,7 +653,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "Inde.csproj",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\IndeDomain\\Inde.csproj",
               "RelativeDocumentMoniker": "IndeDomain\\Inde.csproj",
@@ -579,7 +665,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "ItineraryArrivalService.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Service\\ItineraryArrivalService.cs",
               "RelativeDocumentMoniker": "Sms\\Service\\ItineraryArrivalService.cs",
@@ -591,7 +677,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "IterationExtract.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\MC\\IterationExtract.cs",
               "RelativeDocumentMoniker": "MC\\IterationExtract.cs",
@@ -603,7 +689,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "XmlService.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\IndeDomain\\XmlService.cs",
               "RelativeDocumentMoniker": "IndeDomain\\XmlService.cs",
@@ -615,7 +701,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "IntegrationInstanceConfig.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\MC\\IntegrationInstanceConfig.cs",
               "RelativeDocumentMoniker": "MC\\IntegrationInstanceConfig.cs",
@@ -627,7 +713,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "FileDto.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\MC\\FileDto.cs",
               "RelativeDocumentMoniker": "MC\\FileDto.cs",
@@ -639,7 +725,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 57,
               "Title": "MyTokenService.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Inde\\Service\\MyTokenService.cs",
               "RelativeDocumentMoniker": "Inde\\Service\\MyTokenService.cs",
@@ -650,7 +736,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 56,
               "Title": "Worker.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Inde\\Worker.cs",
               "RelativeDocumentMoniker": "Inde\\Worker.cs",
@@ -661,7 +747,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 55,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Inde\\Program.cs",
               "RelativeDocumentMoniker": "Inde\\Program.cs",
@@ -672,7 +758,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 54,
               "Title": "McLoginRequest.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Inde\\McLoginRequest.cs",
               "RelativeDocumentMoniker": "Inde\\McLoginRequest.cs",
@@ -683,7 +769,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 53,
               "Title": "McLoginRepository.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Inde\\Repository\\McLoginRepository.cs",
               "RelativeDocumentMoniker": "Inde\\Repository\\McLoginRepository.cs",
@@ -694,7 +780,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 52,
               "Title": "IntegrationInstanceRepository.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Inde\\Repository\\IntegrationInstanceRepository.cs",
               "RelativeDocumentMoniker": "Inde\\Repository\\IntegrationInstanceRepository.cs",
@@ -705,7 +791,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 51,
               "Title": "IMcLoginRepository.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Inde\\Repository\\IMcLoginRepository.cs",
               "RelativeDocumentMoniker": "Inde\\Repository\\IMcLoginRepository.cs",
@@ -716,7 +802,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 50,
               "Title": "IIntegrationInstanceRepository.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Inde\\Repository\\IIntegrationInstanceRepository.cs",
               "RelativeDocumentMoniker": "Inde\\Repository\\IIntegrationInstanceRepository.cs",
@@ -727,7 +813,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 58,
               "Title": "IntegrationService.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Inde\\Service\\IntegrationService.cs",
               "RelativeDocumentMoniker": "Inde\\Service\\IntegrationService.cs",
@@ -738,7 +824,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "ILetterService.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Service\\ILetterService.cs",
               "RelativeDocumentMoniker": "Sms\\Service\\ILetterService.cs",
@@ -750,7 +836,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
               "Title": "LodgingReservationTransactionBuilderFactory.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Adapter\\LodgingReservationTransactionBuilderFactory.cs",
               "RelativeDocumentMoniker": "Sms\\Adapter\\LodgingReservationTransactionBuilderFactory.cs",
@@ -762,7 +848,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "LodgingReservationTransactionBuilder.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Adapter\\LodgingReservationTransactionBuilder.cs",
               "RelativeDocumentMoniker": "Sms\\Adapter\\LodgingReservationTransactionBuilder.cs",
@@ -774,7 +860,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 59,
               "Title": "IndeService.csproj",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Inde\\IndeService.csproj",
               "RelativeDocumentMoniker": "Inde\\IndeService.csproj",
@@ -785,7 +871,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 35,
               "Title": "ItineraryDirector.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Adapter\\ItineraryDirector.cs",
               "RelativeDocumentMoniker": "Sms\\Adapter\\ItineraryDirector.cs",
@@ -797,7 +883,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 36,
               "Title": "ItineraryBuilderFactory.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Adapter\\ItineraryBuilderFactory.cs",
               "RelativeDocumentMoniker": "Sms\\Adapter\\ItineraryBuilderFactory.cs",
@@ -809,7 +895,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 37,
               "Title": "ItineraryBuilder.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Adapter\\ItineraryBuilder.cs",
               "RelativeDocumentMoniker": "Sms\\Adapter\\ItineraryBuilder.cs",
@@ -821,7 +907,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 38,
               "Title": "ILodgingReservationTransactionBuilderFactory.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Adapter\\ILodgingReservationTransactionBuilderFactory.cs",
               "RelativeDocumentMoniker": "Sms\\Adapter\\ILodgingReservationTransactionBuilderFactory.cs",
@@ -833,7 +919,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 39,
               "Title": "ILodgingReservationDirector.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Adapter\\ILodgingReservationDirector.cs",
               "RelativeDocumentMoniker": "Sms\\Adapter\\ILodgingReservationDirector.cs",
@@ -845,7 +931,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 40,
               "Title": "ILodgingReservationBuilder.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Adapter\\ILodgingReservationBuilder.cs",
               "RelativeDocumentMoniker": "Sms\\Adapter\\ILodgingReservationBuilder.cs",
@@ -857,7 +943,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 41,
               "Title": "IActivityReservationBuilder.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Adapter\\IActivityReservationBuilder.cs",
               "RelativeDocumentMoniker": "Sms\\Adapter\\IActivityReservationBuilder.cs",
@@ -869,7 +955,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 42,
               "Title": "CustomerBuilder.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Adapter\\CustomerBuilder.cs",
               "RelativeDocumentMoniker": "Sms\\Adapter\\CustomerBuilder.cs",
@@ -881,7 +967,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 44,
               "Title": "ActivityReservationBuilder.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Adapter\\ActivityReservationBuilder.cs",
               "RelativeDocumentMoniker": "Sms\\Adapter\\ActivityReservationBuilder.cs",
@@ -893,7 +979,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 45,
               "Title": "CustDbBind.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\MC\\CustDbBind.cs",
               "RelativeDocumentMoniker": "MC\\CustDbBind.cs",
@@ -905,7 +991,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 60,
               "Title": "BatchService.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Inde\\Service\\BatchService.cs",
               "RelativeDocumentMoniker": "Inde\\Service\\BatchService.cs",
@@ -916,7 +1002,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 47,
               "Title": "AppConfig.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\AppConfig.cs",
               "RelativeDocumentMoniker": "Sms\\AppConfig.cs",
@@ -928,7 +1014,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 43,
               "Title": "ICustomerBuilder.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Adapter\\ICustomerBuilder.cs",
               "RelativeDocumentMoniker": "Sms\\Adapter\\ICustomerBuilder.cs",
@@ -940,7 +1026,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 46,
               "Title": "IDatabaseRestoreService.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Service\\IDatabaseRestoreService.cs",
               "RelativeDocumentMoniker": "Sms\\Service\\IDatabaseRestoreService.cs",
@@ -952,7 +1038,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 49,
               "Title": "SmsIntegration.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\Entity\\SmsIntegration.cs",
               "RelativeDocumentMoniker": "Sms\\Entity\\SmsIntegration.cs",
@@ -964,7 +1050,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 48,
               "Title": "SmsDbContext.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Sms\\SmsDbContext.cs",
               "RelativeDocumentMoniker": "Sms\\SmsDbContext.cs",
@@ -976,7 +1062,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 61,
               "Title": "IntegrationInstanceConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Inde\\IntegrationInstanceConfiguration.cs",
               "RelativeDocumentMoniker": "Inde\\IntegrationInstanceConfiguration.cs",
@@ -987,7 +1073,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 62,
               "Title": "McConfigurationSource.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Inde\\McConfigurationSource.cs",
               "RelativeDocumentMoniker": "Inde\\McConfigurationSource.cs",
@@ -998,7 +1084,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 63,
               "Title": "MyTokenHandler.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Inde\\MyTokenHandler.cs",
               "RelativeDocumentMoniker": "Inde\\MyTokenHandler.cs",
@@ -1009,7 +1095,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 64,
               "Title": "ClientAccess.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Inde\\ClientAccess.cs",
               "RelativeDocumentMoniker": "Inde\\ClientAccess.cs",
@@ -1020,7 +1106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 65,
               "Title": "McMemoryCache.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Inde\\McMemoryCache.cs",
               "RelativeDocumentMoniker": "Inde\\McMemoryCache.cs",
@@ -1031,7 +1117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 66,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Inde\\appsettings.json",
               "RelativeDocumentMoniker": "Inde\\appsettings.json",
@@ -1042,7 +1128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 67,
               "Title": "McLoginResponse.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Inde\\McLoginResponse.cs",
               "RelativeDocumentMoniker": "Inde\\McLoginResponse.cs",
@@ -1053,7 +1139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 68,
               "Title": "McUser.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Inde\\McUser.cs",
               "RelativeDocumentMoniker": "Inde\\McUser.cs",
@@ -1064,7 +1150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 69,
               "Title": "ConfigurationSettings.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Inde\\ConfigurationSettings.cs",
               "RelativeDocumentMoniker": "Inde\\ConfigurationSettings.cs",
@@ -1075,7 +1161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 70,
               "Title": "ApplicationOptions.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Inde\\ApplicationOptions.cs",
               "RelativeDocumentMoniker": "Inde\\ApplicationOptions.cs",
@@ -1086,7 +1172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 71,
               "Title": "Response.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Inde\\Response.cs",
               "RelativeDocumentMoniker": "Inde\\Response.cs",
@@ -1097,7 +1183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 72,
               "Title": "IMcMemoryCache.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Inde\\IMcMemoryCache.cs",
               "RelativeDocumentMoniker": "Inde\\IMcMemoryCache.cs",
@@ -1108,7 +1194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 73,
               "Title": "McConfigurationProviderExtension.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Inde\\McConfigurationProviderExtension.cs",
               "RelativeDocumentMoniker": "Inde\\McConfigurationProviderExtension.cs",
@@ -1119,7 +1205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 74,
               "Title": "Schedule.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Inde\\Schedule.cs",
               "RelativeDocumentMoniker": "Inde\\Schedule.cs",
@@ -1130,7 +1216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 75,
               "Title": "McConfigurationProvider.cs",
               "DocumentMoniker": "C:\\Users\\jjohnson\\source\\projects\\AspNet5\\Inde\\Inde\\McConfigurationProvider.cs",
               "RelativeDocumentMoniker": "Inde\\McConfigurationProvider.cs",

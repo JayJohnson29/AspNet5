@@ -13,7 +13,7 @@ public class InstanceService(ILogger<InstanceService> logger, ILetterService let
         try
         {
 
-            logger.LogInformation("SMS Instance Service");
+            logger.LogDebug("SMS Instance Service Running id {id} name {name}",integrationInstanceConfig.HostAdapterInstanceConfigId, integrationInstanceConfig.Name);
 
             var appConfig = new AppConfig
             {
@@ -35,11 +35,16 @@ public class InstanceService(ILogger<InstanceService> logger, ILetterService let
                 return new Inde.Response<IterationExtract> { Data = new IterationExtract(), Message = "rebuild database failed", IsSuccess = false };
             }
 
+            logger.LogDebug("Database Restore Succeed SmsIntegrationId Id {id}",result.Item2);
+
             appConfig.SmsIntegrationId =  result.Item2;
 
             if (string.Equals(integrationInstanceConfig.ScheduleFunctions, "LetterRequests", StringComparison.InvariantCultureIgnoreCase))
             {
                 var letterRequestItineraries = await letterService.RunAsync(stoppingToken, appConfig);
+
+                logger.LogDebug("Letter Request Itineraries count {num}",letterRequestItineraries.NumberOfRecords);
+
                 if (letterRequestItineraries.NumberOfRecords > 0)
                 {
                     var xmlString = Inde.XmlService.SerializeObject<Itineraries>(letterRequestItineraries);
@@ -54,6 +59,8 @@ public class InstanceService(ILogger<InstanceService> logger, ILetterService let
             {
                 var itineraryArrivals = await itineraryArrivalService.Run(stoppingToken,appConfig);
 
+                logger.LogDebug("Itinerary Arrival count {num}",itineraryArrivals.NumberOfRecords);
+
                 if (itineraryArrivals.NumberOfRecords > 0)
                 {
                     var xmlString = Inde.XmlService.SerializeObject<Reservations>(itineraryArrivals);
@@ -66,12 +73,12 @@ public class InstanceService(ILogger<InstanceService> logger, ILetterService let
 
             }
 
-
             return new Inde.Response<IterationExtract> { Data = new IterationExtract(), Message = "Unknown function", IsSuccess = false };
 
         }
         catch (Exception e)
         {
+            logger.LogError(e,"Error executing sms instance");
             return new Inde.Response<IterationExtract> { Data = new IterationExtract(), Message = "Error running Instance Extract database failed", IsSuccess = false };
         }
 

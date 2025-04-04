@@ -1,7 +1,7 @@
 ﻿
 namespace IndeService.Service
 {
-    public interface IMyTokenService
+    public interface IUserTokenService
     {
         Task<Guid> GetAccessTokenAsync();
     }

@@ -1,18 +1,18 @@
 ﻿using IndeService.Service;
 
 
-public class MyTokenHandler : DelegatingHandler
+public class UserTokenHandler : DelegatingHandler
 {
-    private readonly IMyTokenService _myTokenService;
+    private readonly IUserTokenService _userTokenService;
 
-    public MyTokenHandler(IMyTokenService myTokenService)
+    public UserTokenHandler(IUserTokenService userTokenService)
     {
-        _myTokenService = myTokenService;
+        _userTokenService = userTokenService;
     }
 
     protected override async Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
     {
-        var accessToken = await _myTokenService.GetAccessTokenAsync();
+        var accessToken = await _userTokenService.GetAccessTokenAsync();
         request.Headers.Add("UserToken", accessToken.ToString());
         return await base.SendAsync(request, cancellationToken);
     }

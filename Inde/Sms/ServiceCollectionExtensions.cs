@@ -9,7 +9,7 @@ namespace Sms;
 public static class ServiceCollectionExtensions
 { 
     
-    public static IServiceCollection AddMyLibraryService(this IServiceCollection services, IConfiguration namedConfigurationSection)
+    public static IServiceCollection AddSmsLibraryService(this IServiceCollection services, IConfiguration namedConfigurationSection)
     {
         // Default library options are overridden
         // by bound configuration values.

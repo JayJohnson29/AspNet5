@@ -19,8 +19,6 @@ public class LetterHistoryItineraryRepository : ILetterHistoryItineraryRepositor
 
     public async Task<List<LetterHistoryItinerary>> GetAllAsync(int smsIntegrationId)
     {
-        _logger.LogDebug("Begin ItineraryHistoryInsert calling proc [HA].[LetterHistoryItineraryGetAll] {id}", smsIntegrationId);
-
         try
         {
             var parameters = new List<SqlParameter>();

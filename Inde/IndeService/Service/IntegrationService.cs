@@ -2,12 +2,11 @@
 
 namespace IndeService.Service;
 
-public class IntegrationService(ILogger<IntegrationService> logger, ConfigurationSettings configurationSettings,
-     IIntegrationInstanceRepository integrationInstanceRepository,
-    IServiceProvider serviceProvider,
-     IServiceScopeFactory serviceScopeFactory,
-     IBatchService batchService
-
+public class IntegrationService(
+    ILogger<IntegrationService> logger,
+    IIntegrationInstanceRepository integrationInstanceRepository,
+    IServiceScopeFactory serviceScopeFactory,
+    IBatchService batchService
      ) : IIntegrationService
 {
 
@@ -19,13 +18,12 @@ public class IntegrationService(ILogger<IntegrationService> logger, Configuratio
 
             var integrationInstanceConfigurations = await integrationInstanceRepository.GetAsync();
 
-            logger.LogInformation("Retrieved {count} integrations", integrationInstanceConfigurations.Count);
+            logger.LogDebug("Retrieved {count} integrations", integrationInstanceConfigurations.Count);
 
-            var rundate = DateTime.Now;
-            foreach (var integration in integrationInstanceConfigurations)
+            var scheduledIntegrations = GetServerScheduledIntegrations(integrationInstanceConfigurations);
+
+            foreach (var integration in scheduledIntegrations)
             {
-                if (AdapterScheduled(integration.Schedule, rundate))
-                {
                     //var smsService = serviceProvider.GetRequiredService<ILetterService>();
                     using IServiceScope scope = serviceScopeFactory.CreateScope();
                     var s = scope.ServiceProvider.GetRequiredService<Sms.Service.IInstanceService>();
@@ -36,7 +34,6 @@ public class IntegrationService(ILogger<IntegrationService> logger, Configuratio
                         var a = await batchService.PostFileAsync(resp.Data);
 
                     }
-                }
 
             }
 
@@ -51,11 +48,27 @@ public class IntegrationService(ILogger<IntegrationService> logger, Configuratio
     }
 
 
+    public List<IntegrationInstanceConfiguration> GetServerScheduledIntegrations(List<IntegrationInstanceConfiguration> integrations)
+    {
+        var rundate = DateTime.Now;
+        var scheduledIntegrations = new List<IntegrationInstanceConfiguration>();
+
+        foreach (var integration in integrations)
+        {
+            if (AdapterScheduled(integration.Schedule, rundate))
+            {
+                logger.LogDebug("Integration {0} is scheduled to run",integration.InstanceConfig.Name);
+
+                scheduledIntegrations.Add(integration);
+            }
+        }
+
+        return scheduledIntegrations;
+    }
+
     public bool AdapterScheduled(Schedule schedule, DateTime runDateTime)
     {
-        // _log.Debug("Begin: AdapterScheduled(XmlNode scheduleNode, DateTime runDateTime)");
 
-        bool runApplet = false;
 
         if (!schedule.IsActive)
         {
@@ -86,7 +99,7 @@ public class IntegrationService(ILogger<IntegrationService> logger, Configuratio
 
                 if (remainder == 0)
                 {
-                    runApplet = true;
+                    return true;
                 }
 
             }
@@ -96,33 +109,13 @@ public class IntegrationService(ILogger<IntegrationService> logger, Configuratio
             // For daily, weekly, monthly we check
             // if hour and minute match the scheduled time
 
-
-            //string time = schedule.ScheduleTime;
-            //string[] timePart = time.Split(':');
-            //if ((runDateTime.Hour == int.Parse(timePart[0])) && (runDateTime.Minute == int.Parse(timePart[1])))
-            //{
-            //    runApplet = true;
-            //}
-
             if ((runDateTime.Hour == schedule.ScheduleTime.Hour) && (runDateTime.Minute == schedule.ScheduleTime.Minute))
             {
-                runApplet = true;
+               return true;
             }
         }
         else if (schedule.ScheduleFrequencyId == 2  /* "Weekly" */)
         {
-            //string time = scheduleNode.Attributes["Time"].Value;
-            //string dayOfWeek = runDateTime.DayOfWeek.ToString();
-
-            //bool dayEnabled = bool.Parse(scheduleNode.Attributes[dayOfWeek].Value);
-            //if (dayEnabled)
-            //{
-            //    string[] timePart = time.Split(':');
-            //    if ((runDateTime.Hour == int.Parse(timePart[0])) && (runDateTime.Minute == int.Parse(timePart[1])))
-            //    {
-            //        runApplet = true;
-            //    }
-            //}
 
             var dayEnabled = false;
             switch (runDateTime.DayOfWeek)
@@ -173,7 +166,6 @@ public class IntegrationService(ILogger<IntegrationService> logger, Configuratio
 
             if (dayEnabled && (runDateTime.Hour == schedule.ScheduleTime.Hour) && (runDateTime.Minute == schedule.ScheduleTime.Minute))
             {
-                //runApplet = true;
                 return true;
             }
 
@@ -182,35 +174,18 @@ public class IntegrationService(ILogger<IntegrationService> logger, Configuratio
         }
         else if (schedule.ScheduleFrequencyId == 3 /* "Monthly"  */)
         {
-            //if (scheduleNode.Attributes["DaysOfMonth"] != null)
-            //{
-            //    int dayOfMonth = int.Parse(scheduleNode.Attributes["DaysOfMonth"].Value);
-
-            //    if (runDateTime.Day == dayOfMonth)
-            //    {
-            //        string time = scheduleNode.Attributes["Time"].Value;
-            //        string[] timePart = time.Split(':');
-            //        if ((runDateTime.Hour == int.Parse(timePart[0])) && (runDateTime.Minute == int.Parse(timePart[1])))
-            //        {
-            //            runApplet = true;
-            //        }
-            //    }
-            //}
 
             if (runDateTime.Day == schedule.DayofMonth)
             {
                 if ((runDateTime.Hour == schedule.ScheduleTime.Hour) && (runDateTime.Minute == schedule.ScheduleTime.Minute))
                 {
-                    runApplet = true;
+                    return true;
                 }
             }
 
         }
-        // _log.Debug("End: AdapterScheduled(XmlNode scheduleNode, DateTime runDateTime)");
-        // DONT COMMIT
-        return true;
 
-        return runApplet;
+        return false;
     }
 
 }

@@ -7,7 +7,11 @@ public class DatabaseRestoreService(ILogger<DatabaseRestoreService> logger, ISms
 {
     public async Task<Tuple<bool, int>> RunAsync(AppConfig config)
     {
-        var smsDrPath = $"C:\\Ryan Solutions\\Host Adapter\\SmsDr\\SmsDr.exe";
+
+        logger.LogDebug("Starting Database Restore ");
+
+
+        const string smsDrPath = $"C:\\Ryan Solutions\\Host Adapter\\SmsDr\\SmsDr.exe";
         var output = RunSyncAndGetResults(smsDrPath, $"--connectionstring \"{config.ConnectionString}\"");
 
         var smsIntegrations = await smsIntegrationRepostitory.GetAsync();
@@ -19,7 +23,6 @@ public class DatabaseRestoreService(ILogger<DatabaseRestoreService> logger, ISms
         }
 
         return new Tuple<bool, int>(true, rebuildResults.SmsIntegrationId);
-
     }
 
     public static string RunSyncAndGetResults(string executable, string args, int waitTimeInSeconds = 180)
