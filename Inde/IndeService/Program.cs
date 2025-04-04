@@ -3,12 +3,7 @@ using IndeService;
 using IndeService.Repository;
 using IndeService.Service;
 using System.Net.Http.Headers;
-using Microsoft.EntityFrameworkCore;
 using Sms;
-using Sms.Adapter;
-using Sms.Repository;
-using Sms.Service;
-
 
 
 var builder = Host.CreateApplicationBuilder(args);
@@ -49,8 +44,20 @@ builder.Services.AddHttpClient<IIntegrationInstanceRepository, IntegrationInstan
     client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", builder.Configuration["MarketingCloud:Authorization"]);
 }).AddHttpMessageHandler<MyTokenHandler>();
 
+builder.Services.AddHttpClient<IBatchFileRepository, BatchFileRepository>(client =>
+{
+    client.BaseAddress = new Uri("https://insight-qa.inntopia.com/batchapi");
+    client.Timeout = new TimeSpan(0, 0, 60);
+    client.DefaultRequestHeaders.Add("ClientId", "0");
+    client.DefaultRequestHeaders.Add("UserId", "IntegrationApi");
+    client.DefaultRequestHeaders.Add("HostAdapterInstanceId", "1");
+    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", builder.Configuration["MarketingCloud:Authorization"]);
+}).AddHttpMessageHandler<MyTokenHandler>();
+
 builder.Services.AddSingleton<IMcMemoryCache<McUser>, McMemoryCache<McUser>>();
 builder.Services.AddTransient<IIntegrationService, IntegrationService>();
+builder.Services.AddTransient<IBatchService, BatchService>();
+
 
 ////builder.Configuration.AddMcConfiguration(builder.Configuration.GetSection("MarketingCloud"), log);
 //builder.Services.AddTransient<ILodgingReservationRepository, LodgingReservationRepository>();

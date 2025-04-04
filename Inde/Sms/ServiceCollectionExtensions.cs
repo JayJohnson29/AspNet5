@@ -7,10 +7,9 @@ using Sms.Service;
 
 namespace Sms;
 public static class ServiceCollectionExtensions
-{
-    public static IServiceCollection AddMyLibraryService(
-        this IServiceCollection services,
-        IConfiguration namedConfigurationSection)
+{ 
+    
+    public static IServiceCollection AddMyLibraryService(this IServiceCollection services, IConfiguration namedConfigurationSection)
     {
         // Default library options are overridden
         // by bound configuration values.
@@ -56,7 +55,8 @@ public static class ServiceCollectionExtensions
         services.AddTransient<ISmsIntegrationRepostitory, SmsIntegrationRepostitory>();
 
 
-        services.AddDbContext<SmsDbContext>(options => options.UseSqlServer("data source=192.168.1.2;database=inntopia;user id=sa;password=tiger123$;Connection Timeout=120;Encrypt=False;"));
+        //services.AddDbContext<SmsDbContext>(options => options.UseSqlServer("data source=192.168.1.2;database=inntopia;user id=sa;password=tiger123$;Connection Timeout=120;Encrypt=False;"));
+        services.AddDbContext<SmsDbContext>(options => options.UseSqlServer("data source=localhost\\SQLEXPRESS;database=inntopia;user id=innde;password=redstar2!;integrated security=false;Connection Timeout=120;Encrypt=False;"));
 
         return services;
     }

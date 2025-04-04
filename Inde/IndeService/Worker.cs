@@ -1,4 +1,3 @@
-using IndeService.Repository;
 using IndeService.Service;
 
 namespace IndeService

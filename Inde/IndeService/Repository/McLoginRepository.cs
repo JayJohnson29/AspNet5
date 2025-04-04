@@ -40,7 +40,7 @@ public class McLoginRepository : IMcLoginRepository
         if (!response.IsSuccessStatusCode)
         {
             //Log.Error($"Error in Post StatusCode: {response.StatusCode} Reason: {response.ReasonPhrase} ");
-            //return new Response<T> { Message = "Error in Http Post", Data = default(T), Success = false };
+            //return new Response<T> { Message = "Error in Http Post", Data = default(T), IsSuccess = false };
             return null;
         }
 

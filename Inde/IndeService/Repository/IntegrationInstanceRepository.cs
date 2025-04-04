@@ -2,30 +2,20 @@
 
 namespace IndeService.Repository;
 
-public class IntegrationInstanceRepository : IIntegrationInstanceRepository
+public class IntegrationInstanceRepository(ILogger<IntegrationInstanceRepository> logger, HttpClient httpClient)
+    : IIntegrationInstanceRepository
 {
-    private readonly ILogger<IntegrationInstanceRepository> _logger;
-    private readonly HttpClient _httpClient;
-
-    public IntegrationInstanceRepository(ILogger<IntegrationInstanceRepository> logger, HttpClient httpClient)
-    {
-        _logger = logger;
-        _httpClient = httpClient;
-    }
-
     public async Task<List<IntegrationInstanceConfiguration>> GetAsync()
     {
         try
         {
-           // _httpClient.DefaultRequestHeaders.Add("UserToken", token);
 
-            var response = await _httpClient.GetAsync(_httpClient.BaseAddress);
+            var response = await httpClient.GetAsync(httpClient.BaseAddress);
 
             if (!response.IsSuccessStatusCode)
             {
-                //Log.Error($"Error in Post StatusCode: {response.StatusCode} Reason: {response.ReasonPhrase} ");
-                //return new Response<T> { Message = "Error in Http Post", Data = default(T), Success = false };
-                return null;
+                logger.LogError("Error getting integrations");
+                return new List<IntegrationInstanceConfiguration>();
             }
 
             var responseText = await response.Content.ReadAsStringAsync();
@@ -39,6 +29,7 @@ public class IntegrationInstanceRepository : IIntegrationInstanceRepository
         }
         catch (Exception e)
         {
+            logger.LogError(e, "Error retrieving integrations");
             return new List<IntegrationInstanceConfiguration>();
         }
 

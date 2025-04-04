@@ -4,5 +4,5 @@ namespace Sms.Service;
 
 public interface IInstanceService
 {
-    Task<bool> ExecuteAsync(CancellationToken stoppingToken, IntegrationInstanceConfig integrationInstanceConfig);
+    Task<Inde.Response<IterationExtract>> ExecuteAsync(CancellationToken stoppingToken, IntegrationInstanceConfig integrationInstanceConfig);
 }

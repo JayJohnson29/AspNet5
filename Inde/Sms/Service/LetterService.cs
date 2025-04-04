@@ -58,8 +58,8 @@ public class LetterService : ILetterService
         //var config = new AppConfig { ClientId = 224, SourceSystemCode = 7, CurrencyCode = "USD", ResortName = "pebble" };
 
         var smsIntegrationid = config.SmsIntegrationId;
-        var beginDate = new DateTime(2025, 3, 10);
-        var endDate = new DateTime(2025, 3, 11);
+        var beginDate = DateTime.Now;
+        var endDate = DateTime.Now;
 
         var sourceOfBusiness = await _sourceOfBusinessRepostitory.GetAsync();
         var miscDescriptions = await _miscDescriptionRepository.GetAsync();
@@ -77,11 +77,6 @@ public class LetterService : ILetterService
            // _logger.LogWarning ("No letter requests were loaded.  Nothing to send to MC Batch API {letterRequstId}", r.First().LetterRequestId);
             return new Itineraries { ExtractionDate = DateTime.Now, Itinerary = [], NumberOfRecords = 0 }; ;
         }
-
-        //_log.Debug($"{requests.Count} letter requests were loaded");
-
-        //var lookupValues = GetLookupCodes();
-        //// lookupValues.AddRange(GetSpecialList());
 
         var itineraryList = new List<MC.Itinerary>();
 
@@ -120,17 +115,5 @@ public class LetterService : ILetterService
         return new Itineraries{ ExtractionDate = DateTime.Now, Itinerary = [], NumberOfRecords = 0};
     }
 
-    public static string SerializeObject<T>(T dataToSerialize)
-    {
-        if (dataToSerialize == null)
-            return string.Empty;
 
-        var xmlserializer = new XmlSerializer(typeof(T));
-        var stringWriter = new Utf8StringWriter();
-        using (var writer = new XmlTextWriter(stringWriter) { Formatting = Formatting.Indented })
-        {
-            xmlserializer.Serialize(writer, dataToSerialize);
-            return stringWriter.ToString();
-        }
-    }
 }

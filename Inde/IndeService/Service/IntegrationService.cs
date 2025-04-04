@@ -5,33 +5,49 @@ namespace IndeService.Service;
 public class IntegrationService(ILogger<IntegrationService> logger, ConfigurationSettings configurationSettings,
      IIntegrationInstanceRepository integrationInstanceRepository,
     IServiceProvider serviceProvider,
-     IServiceScopeFactory serviceScopeFactory) : IIntegrationService
+     IServiceScopeFactory serviceScopeFactory,
+     IBatchService batchService
+
+     ) : IIntegrationService
 {
-    private readonly ILogger<IntegrationService> _logger = logger;
-    private readonly ConfigurationSettings _configurationSettings = configurationSettings;
-    private readonly IServiceProvider _serviceProvider = serviceProvider;
 
 
     public async Task<bool> RunAsync(CancellationToken cancellationToken)
     {
-        var integrationInstanceConfigurations = await integrationInstanceRepository.GetAsync();
-
-        var rundate = DateTime.Now;
-        foreach (var integration in integrationInstanceConfigurations)
+        try
         {
-            if (AdapterScheduled(integration.Schedule, rundate))
-            {
-                //var smsService = serviceProvider.GetRequiredService<ILetterService>();
-                using IServiceScope scope = serviceScopeFactory.CreateScope();
-                var s = scope.ServiceProvider.GetRequiredService<Sms.Service.IInstanceService>();
 
-                await s.ExecuteAsync(cancellationToken, integration.InstanceConfig);
-                // RunAsync( integration )
+            var integrationInstanceConfigurations = await integrationInstanceRepository.GetAsync();
+
+            logger.LogInformation("Retrieved {count} integrations", integrationInstanceConfigurations.Count);
+
+            var rundate = DateTime.Now;
+            foreach (var integration in integrationInstanceConfigurations)
+            {
+                if (AdapterScheduled(integration.Schedule, rundate))
+                {
+                    //var smsService = serviceProvider.GetRequiredService<ILetterService>();
+                    using IServiceScope scope = serviceScopeFactory.CreateScope();
+                    var s = scope.ServiceProvider.GetRequiredService<Sms.Service.IInstanceService>();
+
+                    var resp = await s.ExecuteAsync(cancellationToken, integration.InstanceConfig);
+                    if (resp.IsSuccess)
+                    {
+                        var a = await batchService.PostFileAsync(resp.Data);
+
+                    }
+                }
+
             }
 
+            return true;
+        }
+        catch (Exception e)
+        {
+            logger.LogError(e, "Error running integration");
+            return false;
         }
 
-        return true;
     }
 
 

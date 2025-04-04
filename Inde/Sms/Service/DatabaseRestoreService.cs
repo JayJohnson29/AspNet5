@@ -8,10 +8,7 @@ public class DatabaseRestoreService(ILogger<DatabaseRestoreService> logger, ISms
     public async Task<Tuple<bool, int>> RunAsync(AppConfig config)
     {
         var smsDrPath = $"C:\\Ryan Solutions\\Host Adapter\\SmsDr\\SmsDr.exe";
-        var destinationPath = $"C:\\Ryan Solutions\\Host Adapter\\artifacts\\SpringerMiller\\dbfiles";
-        var sourcePath = config.HostPlusPath;
-
-        var output = RunSyncAndGetResults(smsDrPath, $"--ConnectionString \"{config.ConnectionString}\"");
+        var output = RunSyncAndGetResults(smsDrPath, $"--connectionstring \"{config.ConnectionString}\"");
 
         var smsIntegrations = await smsIntegrationRepostitory.GetAsync();
         var rebuildResults = smsIntegrations.First();

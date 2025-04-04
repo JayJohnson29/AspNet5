@@ -2,15 +2,10 @@
 using Sms.Adapter;
 using MC;
 using Sms.Repository;
-using System.Xml.Serialization;
-using System.Xml;
-using System.Text;
+using Inde;
 
 namespace Sms.Service;
-public class Utf8StringWriter : StringWriter
-{
-    public override Encoding Encoding => Encoding.UTF8;
-}
+
 public class ItineraryArrivalService : IItineraryArrivalService
 {
     private readonly ILogger<ItineraryArrivalService> _logger;
@@ -57,22 +52,19 @@ public class ItineraryArrivalService : IItineraryArrivalService
         _lodgingUnitRepostitory = lodgingUnitRepostitory;
     }
 
-    public async Task<bool> Run()
+    public async Task<Reservations> Run(CancellationToken cancellationToken, AppConfig config)
     {
 
-        var config = new AppConfig { ClientId = 224, SourceSystemCode = 7, CurrencyCode = "USD", ResortName = "pebble" };
-
-        var smsIntegrationid = 61364;
         var beginDate = new DateTime(2025, 3, 10);
         var endDate = new DateTime(2025, 3, 11);
 
         //var r = await _itineraryArrivalRepository.CreateAsync(smsIntegrationid, beginDate, endDate);
 
-        var s = await _itineraryHistoryRepository.CreateAsync(smsIntegrationid, beginDate, endDate);
+        var s = await _itineraryHistoryRepository.CreateAsync(config.SmsIntegrationId, beginDate, endDate);
 
-        var t = await _itineraryHistoryReservationRepository.CreateAsync(smsIntegrationid);
+        var t = await _itineraryHistoryReservationRepository.CreateAsync(config.SmsIntegrationId);
 
-        var u = await _itineraryHistoryRepository.GetReservationIdAsync(smsIntegrationid);
+        var u = await _itineraryHistoryRepository.GetReservationIdAsync(config.SmsIntegrationId);
 
         var sourceOfBusiness = await _sourceOfBusinessRepostitory.GetAsync();
         var miscDescriptions = await _miscDescriptionRepository.GetAsync();
@@ -111,41 +103,27 @@ public class ItineraryArrivalService : IItineraryArrivalService
 
         if (reservationList.Count > 0)
         {
-            List<Reservation> SortedList = reservationList.OrderBy(o => o.ReservationId).ToList();
+            var sortedList = reservationList.OrderBy(o => o.ReservationId).ToList();
 
             var reservations = new Reservations
             {
                 ExtractionDate = DateTime.Now,
-                Reservation = SortedList.ToArray(),
-                NumberOfRecords = SortedList.Count
+                Reservation = sortedList.ToArray(),
+                NumberOfRecords = sortedList.Count
             };
 
-            var xmlString = SerializeObject<Reservations>(reservations);
-            File.WriteAllText($"c:\\temp\\res4a.xml", xmlString);
+            //var xmlString = SerializeObject<Reservations>(reservations);
+            //File.WriteAllText($"c:\\temp\\res4a.xml", xmlString);
 
             //var jsonString = JsonSerializer.Serialize<Reservations>(reservations);
             //File.WriteAllText($"c:\\temp\\res4a.json", xmlString);
 
             // Util.SendReservations(_currentInstance.FTP, xmlString, "SMS", _currentInstance.SID);
+            return reservations;
         }
 
-        return true;
+        return new Reservations{ExtractionDate = DateTime.Now, BatchId = -1, NumberOfRecords = 0, Reservation = [] };
 
     }
 
-
-
-    public static string SerializeObject<T>(T dataToSerialize)
-    {
-        if (dataToSerialize == null)
-            return null;
-
-        var xmlserializer = new XmlSerializer(typeof(T));
-        var stringWriter = new Utf8StringWriter();
-        using (var writer = new XmlTextWriter(stringWriter) { Formatting = Formatting.Indented })
-        {
-            xmlserializer.Serialize(writer, dataToSerialize);
-            return stringWriter.ToString();
-        }
-    }
 }

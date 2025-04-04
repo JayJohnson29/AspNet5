@@ -28,7 +28,7 @@ public class LodgingReservationTransactionRepostitory : ILodgingReservationTrans
             resno.Direction = ParameterDirection.Input;
             parameters.Add(resno);
 
-            var queryResult = await _dbContext.LodgingReservationTransactions.FromSqlRaw("HA.[LodgingTransactionsByResNo] @ReservationId", parameters.ToArray()).ToListAsync();
+            var queryResult = await _dbContext.LodgingReservationTransactions.FromSqlRaw("HA.[LodgingTransactionsByResNo] @ReservationId", [.. parameters]).ToListAsync();
             return queryResult;
 
         }
